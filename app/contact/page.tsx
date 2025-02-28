@@ -66,7 +66,7 @@ export default function ContactPage() {
                 Contact Us
               </h1>
               <p className="mx-auto max-w-[700px] text-white/80 md:text-xl">
-                Have questions about TechCultura 2024? We're here to help!
+                Have questions about Surotsav 2025? We're here to help!
               </p>
             </div>
           </div>
@@ -166,9 +166,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold">Address</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      University Campus, Main Road
+                      540 Dum Dum Road, Surermath, (Near Dum Dum Jn. Station)
                       <br />
-                      City, State 123456
+                      Kolkata-700074 West Bengal
                     </p>
                   </div>
                 </div>
@@ -178,9 +178,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold">Email</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      info@techcultura.edu
-                      <br />
-                      support@techcultura.edu
+                      info@dsec.ac.in
+                     
                     </p>
                   </div>
                 </div>
@@ -190,9 +189,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold">Phone</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      +1 (123) 456-7890
+                      +91 6291977707
                       <br />
-                      +1 (123) 456-7891
+                      +91 8902496652
                     </p>
                   </div>
                 </div>
@@ -201,7 +200,15 @@ export default function ContactPage() {
               <div className="rounded-lg overflow-hidden h-[300px] mt-8">
                 {/* Placeholder for map */}
                 <div className="w-full h-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
-                  <p className="text-gray-500 dark:text-gray-400">Interactive Map Would Be Here</p>
+                  {/* <p className="text-gray-500 dark:text-gray-400">Interactive Map Would Be Here</p> */}
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3682.942995052196!2d88.4047502!3d22.6186038!3m2!1i1024!2i768!4f13.1!2m1!1ssurtech!5e0!3m2!1sen!2sin!4v1740766736892!5m2!1sen!2sin"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                  ></iframe>
                 </div>
               </div>
             </div>

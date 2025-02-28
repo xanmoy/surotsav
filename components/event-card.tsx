@@ -10,14 +10,15 @@ interface EventCardProps {
   date: string
   image: string
   icon: ReactNode
-  url?: string
+  url: string
 }
 
 export default function EventCard({ title, description, category, date, image, icon, url }: EventCardProps) {
-  const linkHref = url || `/events/${title.toLowerCase().replace(/\s+/g, "-")}`
+  // const linkHref = url || `/events/${title.toLowerCase().replace(/\s+/g, "-")}`
+
 
   return (
-    <Link href={linkHref}>
+    // <Link href={linkHref}>
       <Card className="overflow-hidden transition-all hover:shadow-lg">
         <div className="aspect-video w-full overflow-hidden">
           <img
@@ -63,10 +64,9 @@ export default function EventCard({ title, description, category, date, image, i
           <p className="text-gray-500 dark:text-gray-400">{description}</p>
         </CardContent>
         <CardFooter className="p-4 pt-0">
-          <span className="text-sm font-medium text-purple-600 dark:text-purple-400">Learn more →</span>
+          <Link href={url} className="text-sm font-medium text-purple-600 dark:text-purple-400">Learn more →</Link>
         </CardFooter>
       </Card>
-    </Link>
+    // </Link>
   )
 }
-

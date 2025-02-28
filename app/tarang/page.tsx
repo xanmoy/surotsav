@@ -4,6 +4,8 @@ import { CalendarDays, MapPin, Mic } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
+import { events } from "@/data/events"
+import React from "react";
 
 export default function TarangPage() {
   return (
@@ -72,38 +74,32 @@ export default function TarangPage() {
             </div>
           </div>
 
-          <Tabs defaultValue="music" className="w-full mt-8">
-            <div className="flex justify-center mb-8">
-              <TabsList className="grid w-full max-w-md grid-cols-4">
-                <TabsTrigger value="music">Music</TabsTrigger>
-                <TabsTrigger value="dance">Dance</TabsTrigger>
-                <TabsTrigger value="theater">Theater</TabsTrigger>
-                <TabsTrigger value="art">Art</TabsTrigger>
-              </TabsList>
-            </div>
-
-            <TabsContent value="music" className="mt-0">
-              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-                <Card className="overflow-hidden">
-                  <div className="aspect-video w-full overflow-hidden bg-pink-100 dark:bg-pink-900/20 flex items-center justify-center">
-                    <Mic className="h-12 w-12 text-pink-600" />
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-8">
+            {events
+              .filter((event) => event.category === "Cultural") // Show only cultural events
+              .map((event) => (
+                <Card key={event.title} className="overflow-hidden">
+                  <div className="aspect-video w-full overflow-hidden bg-blue-100 dark:bg-blue-900/20 flex items-center justify-center">
+                    {React.cloneElement(event.icon, { className: "h-5 w-5 text-blue-600" })}
                   </div>
                   <CardHeader className="p-4">
                     <div className="flex justify-between items-center">
-                      <Badge className="bg-pink-500">Vocal</Badge>
-                      <span className="text-sm text-gray-500 dark:text-gray-400">10:00 AM</span>
+                      <Badge className="bg-blue-500">{event.subcategory}</Badge>
+                      <span className="text-sm text-gray-500 dark:text-gray-400">{event.date}</span>
                     </div>
-                    <CardTitle className="text-xl mt-2">Classical Vocal Competition</CardTitle>
+                    <CardTitle className="text-xl mt-2">{event.title}</CardTitle>
                   </CardHeader>
                   <CardContent className="p-4 pt-0">
-                    <p className="text-gray-500 dark:text-gray-400">
-                      Showcase your classical vocal skills in this prestigious competition. Open to solo performers and duets.
-                    </p>
+                    <p className="text-gray-500 dark:text-gray-400">{event.description}</p>
+                    <div className="flex justify-between items-center mt-4">
+                      <Link href={event.url} className="text-sm font-medium text-blue-600 dark:text-blue-400">
+                        Register Now →
+                      </Link>
+                    </div>
                   </CardContent>
                 </Card>
-              </div>
-            </TabsContent>
-          </Tabs>
+              ))}
+          </div>
         </div>
       </section>
     </div>

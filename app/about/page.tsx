@@ -26,9 +26,9 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <Tabs defaultValue="about" className="w-full">
             <div className="flex justify-center mb-8">
-              <TabsList className="grid w-full max-w-md grid-cols-3">
+              <TabsList className="grid w-full max-w-md grid-cols-2">
                 <TabsTrigger value="about">About</TabsTrigger>
-                <TabsTrigger value="history">History</TabsTrigger>
+                {/* <TabsTrigger value="history">History</TabsTrigger> */}
                 <TabsTrigger value="team">Team</TabsTrigger>
               </TabsList>
             </div>
@@ -88,7 +88,7 @@ export default function AboutPage() {
               </div>
             </TabsContent>
 
-            <TabsContent value="history" className="mt-0">
+            {/* <TabsContent value="history" className="mt-0">
               <div className="space-y-8">
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold tracking-tighter">Our Journey</h2>
@@ -155,62 +155,99 @@ export default function AboutPage() {
                   </div>
                 </div>
               </div>
-            </TabsContent>
+            </TabsContent> */}
 
             <TabsContent value="team" className="mt-0">
               <div className="space-y-8">
+                {/* Section Heading */}
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold tracking-tighter">Meet the Team</h2>
                   <p className="text-gray-500 dark:text-gray-400 max-w-[800px]">
-                    Surotsav is organized by a dedicated team of students who work tirelessly to make the festival a
-                    success. Here are the key members of our organizing committee.
+                    Surotsav is organized by a dedicated team of faculty members and students who work tirelessly to make the
+                    festival a success. Here are the key members of our organizing committee.
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                  {[
-                    {
-                      name: "Rahul Sharma",
-                      role: "Festival Coordinator",
-                      image: "/placeholder.svg?height=300&width=300",
-                    },
-                    { name: "Priya Patel", role: "Technical Head", image: "/placeholder.svg?height=300&width=300" },
-                    { name: "Alex Johnson", role: "Cultural Head", image: "/placeholder.svg?height=300&width=300" },
-                    { name: "Neha Gupta", role: "Marketing Lead", image: "/placeholder.svg?height=300&width=300" },
-                    {
-                      name: "David Chen",
-                      role: "Sponsorship Coordinator",
-                      image: "/placeholder.svg?height=300&width=300",
-                    },
-                    { name: "Aisha Khan", role: "Events Manager", image: "/placeholder.svg?height=300&width=300" },
-                    {
-                      name: "Michael Rodriguez",
-                      role: "Logistics Head",
-                      image: "/placeholder.svg?height=300&width=300",
-                    },
-                    { name: "Sanjana Reddy", role: "Design Lead", image: "/placeholder.svg?height=300&width=300" },
-                  ].map((member, index) => (
-                    <Card key={index} className="overflow-hidden">
-                      <div className="aspect-square w-full overflow-hidden">
-                        <img
-                          src={member.image || "/placeholder.svg"}
-                          alt={member.name}
-                          className="object-cover w-full h-full"
-                        />
-                      </div>
-                      <CardContent className="p-4 text-center">
-                        <h3 className="font-bold text-lg">{member.name}</h3>
-                        <p className="text-sm text-gray-500 dark:text-gray-400">{member.role}</p>
-                      </CardContent>
-                    </Card>
-                  ))}
+                {/* Faculty Team */}
+                <div>
+                  <h3 className="text-2xl font-bold tracking-tight mb-4">Faculty Team</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {[
+                      {
+                        name: "Dr. Anil Mehta",
+                        role: "Festival Director",
+                        image: "/placeholder.svg?height=300&width=300",
+                      },
+                      {
+                        name: "Prof. Sunita Kapoor",
+                        role: "Technical Advisor",
+                        image: "/placeholder.svg?height=300&width=300",
+                      },
+                      {
+                        name: "Dr. Rajesh Kumar",
+                        role: "Cultural Head",
+                        image: "/placeholder.svg?height=300&width=300",
+                      },
+                      {
+                        name: "Prof. Nandini Verma",
+                        role: "Marketing Advisor",
+                        image: "/placeholder.svg?height=300&width=300",
+                      },
+                    ].map((member, index) => (
+                      <Card key={`faculty-${index}`} className="overflow-hidden">
+                        <div className="aspect-square w-full overflow-hidden">
+                          <img
+                            src={member.image || "/placeholder.svg"}
+                            alt={member.name}
+                            className="object-cover w-full h-full"
+                          />
+                        </div>
+                        <CardContent className="p-4 text-center">
+                          <h3 className="font-bold text-lg">{member.name}</h3>
+                          <p className="text-sm text-gray-500 dark:text-gray-400">{member.role}</p>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
                 </div>
 
+                {/* Student Team */}
+                <div>
+                  <h3 className="text-2xl font-bold tracking-tight mb-4">Student Team</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {[
+                      { name: "Rahul Sharma", role: "Festival Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Tanmoy Ganguly", role: "Technical Head", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Alex Johnson", role: "Cultural Head", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Neha Gupta", role: "Marketing Lead", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "David Chen", role: "Sponsorship Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Aisha Khan", role: "Events Manager", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Michael Rodriguez", role: "Logistics Head", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Sanjana Reddy", role: "Design Lead", image: "/placeholder.svg?height=300&width=300" },
+                    ].map((member, index) => (
+                      <Card key={`student-${index}`} className="overflow-hidden">
+                        <div className="aspect-square w-full overflow-hidden">
+                          <img
+                            src={member.image || "/placeholder.svg"}
+                            alt={member.name}
+                            className="object-cover w-full h-full"
+                          />
+                        </div>
+                        <CardContent className="p-4 text-center">
+                          <h3 className="font-bold text-lg">{member.name}</h3>
+                          <p className="text-sm text-gray-500 dark:text-gray-400">{member.role}</p>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Join Our Team Section */}
                 <div className="bg-purple-50 dark:bg-purple-900/10 rounded-xl p-6 mt-8">
                   <h3 className="text-xl font-bold mb-4">Join Our Team</h3>
                   <p className="text-gray-500 dark:text-gray-400 mb-4">
-                    We're always looking for enthusiastic students to join our organizing committee. If you're
-                    passionate about technology, culture, or event management, we'd love to have you on board!
+                    We're always looking for enthusiastic students to join our organizing committee. If you're passionate about
+                    technology, culture, or event management, we'd love to have you on board!
                   </p>
                   <p className="text-gray-500 dark:text-gray-400">
                     Contact us at <span className="text-purple-600 dark:text-purple-400">team@Surotsav.edu</span> to
@@ -219,6 +256,7 @@ export default function AboutPage() {
                 </div>
               </div>
             </TabsContent>
+
           </Tabs>
         </div>
       </section>

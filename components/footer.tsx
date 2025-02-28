@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 text-lg font-bold">
-              <Mountain className="h-6 w-6 text-purple-500" />
+             
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
                 Surotsav
               </span>
@@ -77,10 +77,10 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-medium">Contact Info</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>University Campus, Main Road</li>
-              <li>City, State 123456</li>
-              <li>info@surotsav.edu</li>
-              <li>+1 (123) 456-7890</li>
+              <li>540 Dum Dum Road, Surermath, (Near Dum Dum Jn. Station)</li>
+              <li>Kolkata-700074 West Bengal</li>
+              <li>info@dsec.ac.in</li>
+              <li>+91 6291977707</li>
             </ul>
           </div>
 

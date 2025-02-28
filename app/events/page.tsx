@@ -5,70 +5,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Input } from "@/components/ui/input"
 import { Search, Zap, Users, Mic, Code, Gamepad2, PenTool } from "lucide-react"
 import EventCard from "@/components/event-card"
+import { events } from "@/data/events"
 
-// Sample event data
-const events = [
-  {
-    id: 1,
-    title: "Hackathon 2024",
-    description: "48-hour coding challenge to build innovative solutions",
-    category: "Tech",
-    subcategory: "Coding",
-    date: "March 15",
-    image: "/placeholder.svg?height=400&width=600",
-    icon: <Code className="h-5 w-5" />,
-  },
-  {
-    id: 2,
-    title: "Cultural Night",
-    description: "A celebration of diversity through music and dance",
-    category: "Cultural",
-    subcategory: "Performance",
-    date: "March 16",
-    image: "/placeholder.svg?height=400&width=600",
-    icon: <Users className="h-5 w-5" />,
-  },
-  {
-    id: 3,
-    title: "Robotics Competition",
-    description: "Showcase your engineering skills with robots",
-    category: "Tech",
-    subcategory: "Engineering",
-    date: "March 17",
-    image: "/placeholder.svg?height=400&width=600",
-    icon: <Zap className="h-5 w-5" />,
-  },
-  {
-    id: 4,
-    title: "Battle of Bands",
-    description: "Compete with your band and show your musical talent",
-    category: "Cultural",
-    subcategory: "Music",
-    date: "March 16",
-    image: "/placeholder.svg?height=400&width=600",
-    icon: <Mic className="h-5 w-5" />,
-  },
-  {
-    id: 5,
-    title: "Gaming Tournament",
-    description: "Compete in popular esports titles for amazing prizes",
-    category: "Tech",
-    subcategory: "Gaming",
-    date: "March 15-17",
-    image: "/placeholder.svg?height=400&width=600",
-    icon: <Gamepad2 className="h-5 w-5" />,
-  },
-  {
-    id: 6,
-    title: "Art Exhibition",
-    description: "Showcase of student artwork and installations",
-    category: "Cultural",
-    subcategory: "Art",
-    date: "March 15-17",
-    image: "/placeholder.svg?height=400&width=600",
-    icon: <PenTool className="h-5 w-5" />,
-  },
-]
 
 export default function EventsPage() {
   const [searchQuery, setSearchQuery] = useState("")
@@ -136,6 +74,7 @@ export default function EventsPage() {
                     date={event.date}
                     image={event.image}
                     icon={event.icon}
+                    url={event.url}
                   />
                 ))}
               </div>
@@ -158,6 +97,7 @@ export default function EventsPage() {
                     date={event.date}
                     image={event.image}
                     icon={event.icon}
+                    url={event.url}
                   />
                 ))}
               </div>
@@ -180,6 +120,7 @@ export default function EventsPage() {
                     date={event.date}
                     image={event.image}
                     icon={event.icon}
+                    url={event.url}
                   />
                 ))}
               </div>

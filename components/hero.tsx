@@ -53,14 +53,14 @@ export default function HeroSection() {
                         <div className="flex flex-col gap-2 min-[400px]:flex-row">
                             <Link href="/events">
                                 <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
-                                    Register Now
-                                </Button>
-                            </Link>
-                            <Link href="/events">
-                                <Button size="lg" variant="outline" className="border-gray-700 text-gray-200 hover:bg-gray-800">
                                     Explore Events
                                 </Button>
                             </Link>
+                            {/* <Link href="/events">
+                                <Button size="lg" variant="outline" className="border-gray-700 text-gray-200 hover:bg-gray-800">
+                                    Explore Events
+                                </Button>
+                            </Link> */}
                         </div>
                         <div className="flex items-center gap-4 text-sm text-gray-300">
                             <div className="flex items-center gap-1">
@@ -69,7 +69,11 @@ export default function HeroSection() {
                             </div>
                             <div className="flex items-center gap-1">
                                 <MapPin className="h-4 w-4" />
-                                <span>University Campus</span>
+                                <span className="text-gray-500 dark:text-gray-400">
+                                    540 Dum Dum Road
+                                    
+                                    
+                                </span>
                             </div>
                         </div>
                     </div>

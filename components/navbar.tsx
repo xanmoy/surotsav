@@ -53,7 +53,7 @@ export default function Navbar() {
               size="sm"
               className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
             >
-              Register Now
+              Explore Events
             </Button>
           </Link>
 
@@ -83,7 +83,7 @@ export default function Navbar() {
                   </div>
                   <Link href="/events" onClick={() => setIsMenuOpen(false)}>
                     <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
-                      Register Now
+                      Explore Events
                     </Button>
                   </Link>
                 </div>

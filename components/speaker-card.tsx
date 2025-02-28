@@ -4,9 +4,10 @@ interface SpeakerCardProps {
   name: string
   role: string
   image: string
+  company?: string
 }
 
-export default function SpeakerCard({ name, role, image }: SpeakerCardProps) {
+export default function SpeakerCard({ name, role, image, company}: SpeakerCardProps) {
   return (
     <Card className="overflow-hidden transition-all hover:shadow-md">
       <div className="aspect-square w-full overflow-hidden">
@@ -18,7 +19,8 @@ export default function SpeakerCard({ name, role, image }: SpeakerCardProps) {
       </div>
       <CardContent className="p-4 text-center">
         <h3 className="font-bold text-lg">{name}</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">{role}</p>
+        <p className="text-sm text-gray-500 dark:text-gray-300">{role}</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400">{company}</p>
       </CardContent>
     </Card>
   )

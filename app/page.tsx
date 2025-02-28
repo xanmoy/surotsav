@@ -11,54 +11,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      {/* <section className="relative w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-black">
-        <div className="container px-4 md:px-6">
-          <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-            <div className="flex flex-col justify-center space-y-4">
-              <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-                  SUROTSAV 2025
-                </h1>
-                <p className="max-w-[600px] text-gray-200 md:text-xl">
-                  The ultimate college fest experience featuring Mobmania, Manthan, Udaan, and Tarang. Join us for an
-                  unforgettable celebration of talent and innovation.
-                </p>
-              </div>
-              <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link href="/register">
-                  <Button
-                    size="lg"
-                    className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
-                  >
-                    Register Now
-                  </Button>
-                </Link>
-                <Link href="/events">
-                  <Button size="lg" variant="outline" className="border-gray-700 text-gray-200 hover:bg-gray-300">
-                    Explore Events
-                  </Button>
-                </Link>
-              </div>
-              <div className="flex items-center gap-4 text-sm text-gray-300">
-                <div className="flex items-center gap-1">
-                  <CalendarDays className="h-4 w-4" />
-                  <span>March 18-21, 2025</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <MapPin className="h-4 w-4" />
-                  <span>University Campus</span>
-                </div>
-              </div>
-            </div>
-            <div className="flex items-center justify-center">
-              <CountdownTimer targetDate="2025-03-18T09:00:00" />
-            </div>
-          </div>
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-blue-900/20 pointer-events-none"></div>
-
-      </section> */}
-<HeroSection />
+        <HeroSection />
       {/* Featured Events Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-900/50">
         <div className="container px-4 md:px-6">
@@ -150,9 +103,39 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      
       {/* Sponsors Section */}
       <SponsorSection />
+
+      {/* Developer Section */}
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-950">
+        <div className="container px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="space-y-2">
+              <div className="inline-block rounded-lg bg-pink-100 dark:bg-pink-900/30 px-3 py-1 text-sm text-pink-700 dark:text-pink-300">
+                Developer Team
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                Meet the Developer Team
+              </h2>
+              <p className="max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                
+              </p>
+            </div>
+          </div>
+          <div className="flex justify-center mx-auto max-w-5xl mt-8">
+            <div className="max-w-[250px] w-full">
+              <SpeakerCard
+                name="Tanmoy Ganguly"
+                role="Full Stack Developer"
+                image="https://www.xanmoy.in/_next/image?url=%2Fganguly.jpg&w=256&q=95"
+                company="Google Developer Groups"
+              />
+            </div>
+          </div>
+
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-purple-600 to-pink-600">
@@ -167,7 +150,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="/register">
+              <Link href="/events">
                 <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
                   Register Now
                 </Button>
