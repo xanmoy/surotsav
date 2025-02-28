@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { CalendarDays, Menu, Mountain } from "lucide-react"
+import Image from "next/image"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -20,11 +21,18 @@ export default function Navbar() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-lg font-bold">
-          <Mountain className="h-6 w-6 text-purple-600" />
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Surotsav</span>
+          {/* <Mountain className="h-6 w-6 text-purple-600" /> */}
+          <Image
+            src="/logo-nobg.png"
+            alt="Surotsav"
+            width={54}
+            height={54}
+            // className="h-6 w-6 text-purple-600"
+          />
+          {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Surotsav</span> */}
         </Link>
 
         <nav className="hidden md:flex gap-6">
@@ -40,7 +48,7 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link href="/register" className="hidden md:block">
+          <Link href="/events" className="hidden md:block">
             <Button
               size="sm"
               className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
@@ -51,7 +59,7 @@ export default function Navbar() {
 
           <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
             <SheetTrigger asChild className="md:hidden">
-              <Button variant="outline" size="icon" className="h-9 w-9">
+              <Button variant="ghost" size="default" className="h-9 w-9">
                 <Menu className="h-5 w-5" />
                 <span className="sr-only">Toggle menu</span>
               </Button>
@@ -73,7 +81,7 @@ export default function Navbar() {
                     <CalendarDays className="h-4 w-4" />
                     <span>March 18-21, 2025</span>
                   </div>
-                  <Link href="/register" onClick={() => setIsMenuOpen(false)}>
+                  <Link href="/events" onClick={() => setIsMenuOpen(false)}>
                     <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
                       Register Now
                     </Button>

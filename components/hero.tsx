@@ -51,7 +51,7 @@ export default function HeroSection() {
                             </p>
                         </div>
                         <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                            <Link href="/register">
+                            <Link href="/events">
                                 <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
                                     Register Now
                                 </Button>
