@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Facebook, Instagram, Linkedin, Mountain, Twitter, Youtube } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -10,11 +11,33 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 text-lg font-bold">
-             
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
+
+              {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
                 Surotsav
-              </span>
+              </span> */}
+              <Image
+                src="/logo-nobg.png"
+                alt="Surotsav"
+                width={84}
+                height={84}
+              // className="h-6 w-6 text-purple-600"
+              />
+              <Image
+                src="tarang.png"
+                alt="Surotsav"
+                width={84}
+                height={84}
+              // className="h-6 w-6 text-purple-600"
+              />
+              <Image
+                src="/manthan.png"
+                alt="Surotsav"
+                width={84}
+                height={84}
+              // className="h-6 w-6 text-purple-600"
+              />
             </Link>
+            
             <p className="text-gray-400 max-w-xs">
               The ultimate college fest experience featuring Mobmania, Manthan, Udaan, and Tarang. Join us for an
               unforgettable celebration.
