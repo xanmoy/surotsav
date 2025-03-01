@@ -137,8 +137,8 @@ export const events: Event[] = [
     },
     {
         id: 13,
-        title: "Making Best From The Waste",
-        description: "Waste management competition",
+        title: "Clash of Opinions",
+        description: "Debate competition",
         category: "Tech",
         subcategory: "Art-&-Craft",
         date: "March 15-17",

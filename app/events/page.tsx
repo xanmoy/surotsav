@@ -32,7 +32,7 @@ export default function EventsPage() {
                 Events & Activities
               </h1>
               <p className="mx-auto max-w-[700px] text-white/80 md:text-xl">
-                Discover all the exciting events happening at TechCultura 2024
+                Discover all the exciting events happening at Surotsav 2025
               </p>
             </div>
             <div className="w-full max-w-sm space-y-2">

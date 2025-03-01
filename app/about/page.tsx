@@ -72,7 +72,7 @@ export default function AboutPage() {
                         <CalendarDays className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                       </div>
                       <div className="mt-2 text-center">
-                        <div className="text-xl font-bold">3</div>
+                        <div className="text-xl font-bold">4</div>
                         <div className="text-sm text-gray-500 dark:text-gray-400">Days of Fun</div>
                       </div>
                     </div>
@@ -170,27 +170,42 @@ export default function AboutPage() {
 
                 {/* Faculty Team */}
                 <div>
-                  <h3 className="text-2xl font-bold tracking-tight mb-4">Faculty Team</h3>
+                  <h3 className="text-2xl font-bold tracking-tight mb-4">Surotsav Core Committee</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {[
                       {
-                        name: "Dr. Anil Mehta",
-                        role: "Festival Director",
+                        name: "Dr. Saradindu Panda",
+                        role: "Principal",
                         image: "/placeholder.svg?height=300&width=300",
                       },
                       {
-                        name: "Prof. Sunita Kapoor",
-                        role: "Technical Advisor",
+                        name: "Anirbit Sengupta",
+                        role: "Deputy Registrar",
                         image: "/placeholder.svg?height=300&width=300",
                       },
                       {
-                        name: "Dr. Rajesh Kumar",
-                        role: "Cultural Head",
+                        name: "Aviroop Dewan",
+                        role: "Admin",
                         image: "/placeholder.svg?height=300&width=300",
                       },
                       {
-                        name: "Prof. Nandini Verma",
-                        role: "Marketing Advisor",
+                        name: "Sayani Ghosh Saha",
+                        role: "Admin",
+                        image: "/placeholder.svg?height=300&width=300",
+                      },
+                      {
+                        name: "Debasmita Roy Chowdhury",
+                        role: "Dept of BSH",
+                        image: "/placeholder.svg?height=300&width=300",
+                      },
+                      {
+                        name: "Dr. Anirban Neogi",
+                        role: "HOD of ECE",
+                        image: "/placeholder.svg?height=300&width=300",
+                      },
+                      {
+                        name: "Baibaswata Das",
+                        role: "Dept of Civil Engineering",
                         image: "/placeholder.svg?height=300&width=300",
                       },
                     ].map((member, index) => (
@@ -211,19 +226,85 @@ export default function AboutPage() {
                   </div>
                 </div>
 
-                {/* Student Team */}
+                {/* TechFest Team */}
                 <div>
-                  <h3 className="text-2xl font-bold tracking-tight mb-4">Student Team</h3>
+                  <h3 className="text-2xl font-bold tracking-tight mb-4">Techfest Team</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {[
-                      { name: "Rahul Sharma", role: "Festival Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Anushwa Bhattacharya", role: "Student Head", image: "/placeholder.svg?height=300&width=300" },
                       { name: "Tanmoy Ganguly", role: "Technical Head", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Alex Johnson", role: "Cultural Head", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Neha Gupta", role: "Marketing Lead", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "David Chen", role: "Sponsorship Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Aisha Khan", role: "Events Manager", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Michael Rodriguez", role: "Logistics Head", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Sanjana Reddy", role: "Design Lead", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Bhavini Lakhotia", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Sahir Hilal", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Kishan Derasree", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Shruti Mandal", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Novonil Mitra", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Debayan Chakraborty", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Swakshar Mitra", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Sruti Shaw", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Anushka Bhowmick", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Anjishnu Chandra", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                    ].map((member, index) => (
+                      <Card key={`student-${index}`} className="overflow-hidden">
+                        <div className="aspect-square w-full overflow-hidden">
+                          <img
+                            src={member.image || "/placeholder.svg"}
+                            alt={member.name}
+                            className="object-cover w-full h-full"
+                          />
+                        </div>
+                        <CardContent className="p-4 text-center">
+                          <h3 className="font-bold text-lg">{member.name}</h3>
+                          <p className="text-sm text-gray-500 dark:text-gray-400">{member.role}</p>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Cultural Team */}
+                <div>
+                  <h3 className="text-2xl font-bold tracking-tight mb-4">Cultural Team</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {[
+                      { name: "Monalisha Singha Roy", role: "Mother Surtech", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Abhishek Roy", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Prohit Sil", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Md. Abid Khan", role: "cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Shashwat Sharma", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Jit Biswas", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Shivam Kumar", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Shivam Singh", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                    ].map((member, index) => (
+                      <Card key={`student-${index}`} className="overflow-hidden">
+                        <div className="aspect-square w-full overflow-hidden">
+                          <img
+                            src={member.image || "/placeholder.svg"}
+                            alt={member.name}
+                            className="object-cover w-full h-full"
+                          />
+                        </div>
+                        <CardContent className="p-4 text-center">
+                          <h3 className="font-bold text-lg">{member.name}</h3>
+                          <p className="text-sm text-gray-500 dark:text-gray-400">{member.role}</p>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Media Team */}
+                <div>
+                  <h3 className="text-2xl font-bold tracking-tight mb-4">Media Team</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {[
+                      { name: "Monalisha Singha Roy", role: "Mother Surtech", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Abhishek Roy", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Prohit Sil", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Md. Abid Khan", role: "cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Shashwat Sharma", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Jit Biswas", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Shivam Kumar", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Shivam Singh", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
                     ].map((member, index) => (
                       <Card key={`student-${index}`} className="overflow-hidden">
                         <div className="aspect-square w-full overflow-hidden">
