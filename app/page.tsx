@@ -123,7 +123,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex justify-center mx-auto max-w-5xl mt-8 gap-8">
+          <div className="flex flex-col md:flex-row justify-center items-center mx-auto max-w-5xl mt-8 gap-8">
             <div className="max-w-[250px] w-full">
               <SpeakerCard
                 name="Tanmoy Ganguly"
@@ -137,12 +137,13 @@ export default function Home() {
                 name="Anushwa Bhattacharya"
                 role="Frontend Developer"
                 image="/assets/anushwa.jpeg"
-                company="Cloud Native Computing Foundation"
+                company="Cloud Native Hooghly"
               />
             </div>
           </div>
         </div>
       </section>
+
 
 
       {/* CTA Section */}
