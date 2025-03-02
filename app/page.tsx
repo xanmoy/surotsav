@@ -119,11 +119,11 @@ export default function Home() {
                 Meet the Developer Team
               </h2>
               <p className="max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                
+                Get to know the talented developers behind our project.
               </p>
             </div>
           </div>
-          <div className="flex justify-center mx-auto max-w-5xl mt-8">
+          <div className="flex justify-center mx-auto max-w-5xl mt-8 gap-8">
             <div className="max-w-[250px] w-full">
               <SpeakerCard
                 name="Tanmoy Ganguly"
@@ -132,10 +132,18 @@ export default function Home() {
                 company="Google Developer Groups"
               />
             </div>
+            <div className="max-w-[250px] w-full">
+              <SpeakerCard
+                name="Anushwa Bhattacharya"
+                role="Frontend Developer"
+                image="/assets/anushwa.jpeg"
+                company="Cloud Native Computing Foundation"
+              />
+            </div>
           </div>
-
         </div>
       </section>
+
 
       {/* CTA Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-purple-600 to-pink-600">

@@ -231,18 +231,18 @@ export default function AboutPage() {
                   <h3 className="text-2xl font-bold tracking-tight mb-4">Techfest Team</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {[
-                      { name: "Anushwa Bhattacharya", role: "Student Head", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Tanmoy Ganguly", role: "Technical Head", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Bhavini Lakhotia", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Anushwa Bhattacharya", role: "Student Head", image: "/assets/AnushwaBhattacharya.jpg?height=300&width=300" },
+                      { name: "Tanmoy Ganguly", role: "Technical Head", image: "/assets/tanmoyganguly.webp?height=300&width=300" },
+                      { name: "Bhavini Lakhotia", role: "Techfest Coordinator", image: "/assets/BhaviniLakhotia.jpg?height=300&width=300" },
                       { name: "Sahir Hilal", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Kishan Derasree", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Shruti Mandal", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Kishan Derasree", role: "Techfest Coordinator", image: "/assets/KishanDerasree.jpg?height=300&width=300" },
+                      { name: "Shruti Mandal", role: "Techfest Coordinator", image: "/assets/ShrutiMandal.jpg?height=300&width=300" },
                       { name: "Novonil Mitra", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Debayan Chakraborty", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Debayan Chakraborty", role: "Techfest Coordinator", image: "/assets/DebayanChakraborty.jpg?height=300&width=300" },
                       { name: "Swakshar Mitra", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Sruti Shaw", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Sruti Shaw", role: "Techfest Coordinator", image: "/assets/SrutiShaw.jpg?height=300&width=300" },
                       { name: "Anushka Bhowmick", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Anjishnu Chandra", role: "Techfest Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Anjishnu Chandra", role: "Techfest Coordinator", image: "/assets/ANJISHNUCHANDRA.heic?height=300&width=300" },
                     ].map((member, index) => (
                       <Card key={`student-${index}`} className="overflow-hidden">
                         <div className="aspect-square w-full overflow-hidden">
@@ -266,14 +266,14 @@ export default function AboutPage() {
                   <h3 className="text-2xl font-bold tracking-tight mb-4">Cultural Team</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {[
-                      { name: "Monalisha Singha Roy", role: "Mother Surtech", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Abhishek Roy", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Monalisha Singha Roy", role: "Cultural Coordinator", image: "/assets/monalisa.jpg?height=300&width=300" },
+                      { name: "Abhishek Roy", role: "Cultural Coordinator", image: "/assets/AbhishekRoy.jpg?height=300&width=300" },
                       { name: "Prohit Sil", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Md. Abid Khan", role: "cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Shashwat Sharma", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Jit Biswas", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Md. Abid Khan", role: "cultural Coordinator", image: "/assets/MdAbidKhan.jpg?height=300&width=300" },
+                      { name: "Shashwat Sharma", role: "Cultural Coordinator", image: "/assets/ShashwatSharma.webp?height=300&width=300" },
+                      { name: "Jit Biswas", role: "Cultural Coordinator", image: "/assets/JitBiswas.PNG?height=300&width=300" },
                       { name: "Shivam Kumar", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
-                      { name: "Shivam Singh", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Shivam Singh", role: "Cultural Coordinator", image: "/assets/ShivhamSingh.jpg?height=300&width=300" },
                     ].map((member, index) => (
                       <Card key={`student-${index}`} className="overflow-hidden">
                         <div className="aspect-square w-full overflow-hidden">
@@ -297,7 +297,7 @@ export default function AboutPage() {
                   <h3 className="text-2xl font-bold tracking-tight mb-4">Media Team</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {[
-                      { name: "Monalisha Singha Roy", role: "Mother Surtech", image: "/placeholder.svg?height=300&width=300" },
+                      { name: "Monalisha Singha Roy", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
                       { name: "Abhishek Roy", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
                       { name: "Prohit Sil", role: "Cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
                       { name: "Md. Abid Khan", role: "cultural Coordinator", image: "/placeholder.svg?height=300&width=300" },
@@ -331,8 +331,8 @@ export default function AboutPage() {
                     technology, culture, or event management, we'd love to have you on board!
                   </p>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Contact us at <span className="text-purple-600 dark:text-purple-400">team@Surotsav.edu</span> to
-                    learn more about volunteer opportunities.
+                    Contact us at <span className="text-purple-600 dark:text-purple-400">info@dsec.ac.in</span>
+                    to learn more about volunteer opportunities.
                   </p>
                 </div>
               </div>
