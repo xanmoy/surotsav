@@ -12,7 +12,7 @@ export const events: Event[] = [
         date: "March 15",
         image: "/placeholder.svg?height=400&width=600",
         icon: <Code className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ export const events: Event[] = [
         date: "March 15",
         image: "/placeholder.svg?height=400&width=600",
         icon: <Users className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 3,
@@ -34,19 +34,19 @@ export const events: Event[] = [
         date: "March 17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <Zap className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
-    {
-        id: 4,
-        title: "Battle of Bands",
-        description: "Compete with your band and show your musical talent",
-        category: "Cultural",
-        subcategory: "Music",
-        date: "March 16",
-        image: "/placeholder.svg?height=400&width=600",
-        icon: <Mic className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
-    },
+    // {
+    //     id: 4,
+    //     title: "Battle of Bands",
+    //     description: "Compete with your band and show your musical talent",
+    //     category: "Cultural",
+    //     subcategory: "Music",
+    //     date: "March 16",
+    //     image: "/placeholder.svg?height=400&width=600",
+    //     icon: <Mic className="h-5 w-5" />,
+    //     url: "https://forms.gle/4XhpYATDFnBtnKEg6",
+    // },
     {
         id: 5,
         title: "Car Tire Changing",
@@ -56,7 +56,7 @@ export const events: Event[] = [
         date: "March 15-17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <Gamepad2 className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 6,
@@ -67,7 +67,7 @@ export const events: Event[] = [
         date: "March 15-17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <PenTool className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 7,
@@ -78,7 +78,7 @@ export const events: Event[] = [
         date: "March 15-17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <PenTool className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 8,
@@ -89,7 +89,7 @@ export const events: Event[] = [
         date: "March 15-17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <PenTool className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 9,
@@ -100,7 +100,7 @@ export const events: Event[] = [
         date: "March 15-17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <PenTool className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 10,
@@ -111,7 +111,7 @@ export const events: Event[] = [
         date: "March 15-17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <PenTool className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 11,
@@ -122,7 +122,7 @@ export const events: Event[] = [
         date: "March 15-17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <PenTool className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 12,
@@ -133,7 +133,7 @@ export const events: Event[] = [
         date: "March 15-17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <PenTool className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
     {
         id: 13,
@@ -144,6 +144,6 @@ export const events: Event[] = [
         date: "March 15-17",
         image: "/placeholder.svg?height=400&width=600",
         icon: <PenTool className="h-5 w-5" />,
-        url: "https://docs.google.com/forms/u/0/",
+        url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
 ];

@@ -56,11 +56,11 @@ export default function HeroSection() {
                                     Explore Events
                                 </Button>
                             </Link>
-                            {/* <Link href="/events">
+                            <Link href="https://forms.gle/4XhpYATDFnBtnKEg6">
                                 <Button size="lg" variant="outline" className="border-gray-700 text-gray-200 hover:bg-gray-800">
-                                    Explore Events
+                                    Register Now
                                 </Button>
-                            </Link> */}
+                            </Link>
                         </div>
                         <div className="flex items-center gap-4 text-sm text-gray-300">
                             <div className="flex items-center gap-1">

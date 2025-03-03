@@ -56,10 +56,10 @@ export default function EventsPage() {
         <div className="container px-4 md:px-6">
           <Tabs defaultValue="all" className="w-full" onValueChange={setActiveTab}>
             <div className="flex justify-center mb-8">
-              <TabsList className="grid w-full max-w-md grid-cols-3">
+              <TabsList className="grid w-full max-w-md grid-cols-2">
                 <TabsTrigger value="all">All Events</TabsTrigger>
                 <TabsTrigger value="Tech">Tech</TabsTrigger>
-                <TabsTrigger value="Cultural">Cultural</TabsTrigger>
+                {/* <TabsTrigger value="Cultural">Cultural</TabsTrigger> */}
               </TabsList>
             </div>
 

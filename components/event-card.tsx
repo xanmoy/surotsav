@@ -64,7 +64,7 @@ export default function EventCard({ title, description, category, date, image, i
           <p className="text-gray-500 dark:text-gray-400">{description}</p>
         </CardContent>
         <CardFooter className="p-4 pt-0">
-          <Link href={url} className="text-sm font-medium text-purple-600 dark:text-purple-400">Learn more →</Link>
+          <Link href={url} className="text-sm font-medium text-purple-600 dark:text-purple-400" target="_blank">Register Now →</Link>
         </CardFooter>
       </Card>
     // </Link>
