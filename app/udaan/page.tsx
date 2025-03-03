@@ -39,7 +39,7 @@ export default function UdaanPage() {
                 </div>
                 <div className="flex items-center gap-1">
                   <MapPin className="h-4 w-4" />
-                  <span>University Amphitheater</span>
+                  <span>Surtech Campus</span>
                 </div>
               </div>
             </div>
@@ -134,7 +134,7 @@ export default function UdaanPage() {
                   <Badge className="bg-green-500">Performance</Badge>
                   <span className="text-sm text-gray-500 dark:text-gray-400">10:00 AM</span>
                 </div>
-                <CardTitle className="text-xl mt-2">Talent Showcase</CardTitle>
+                <CardTitle className="text-xl mt-2">Cultural Performance</CardTitle>
               </CardHeader>
               <CardContent className="p-4 pt-0">
                 <p className="text-gray-500 dark:text-gray-400">
@@ -142,12 +142,12 @@ export default function UdaanPage() {
                 </p>
                 <div className="flex items-center gap-1 text-sm text-gray-500 mt-4">
                   <MapPin className="h-4 w-4" />
-                  <span>Main Stage, Amphitheater</span>
+                  <span>Main Stage, Surtech</span>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="overflow-hidden">
+            {/* <Card className="overflow-hidden">
               <div className="aspect-video w-full overflow-hidden bg-green-100 dark:bg-green-900/20 flex items-center justify-center">
                 <Users className="h-12 w-12 text-green-600" />
               </div>
@@ -167,7 +167,7 @@ export default function UdaanPage() {
                   <span>University Lawn</span>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card className="overflow-hidden">
               <div className="aspect-video w-full overflow-hidden bg-green-100 dark:bg-green-900/20 flex items-center justify-center">
@@ -253,7 +253,7 @@ export default function UdaanPage() {
                 </div>
               </div>
 
-              <div className="relative flex items-start gap-6 pb-12">
+              {/* <div className="relative flex items-start gap-6 pb-12">
                 <div className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full bg-green-600 text-white shadow-sm">
                   <Clock className="h-5 w-5" />
                 </div>
@@ -268,21 +268,21 @@ export default function UdaanPage() {
                     <span>Main Stage, Amphitheater</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="relative flex items-start gap-6 pb-12">
                 <div className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full bg-green-600 text-white shadow-sm">
                   <Clock className="h-5 w-5" />
                 </div>
                 <div className="space-y-1">
-                  <h3 className="text-lg font-semibold">Talent Showcase</h3>
-                  <p className="text-gray-500 dark:text-gray-400">10:30 AM - 1:00 PM</p>
+                  <h3 className="text-lg font-semibold">Cultural Performance</h3>
+                  <p className="text-gray-500 dark:text-gray-400">2:00 PM - 6:00 PM</p>
                   <p className="text-gray-500 dark:text-gray-400">
                     Freshers showcase their talents in various categories
                   </p>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                     <MapPin className="h-4 w-4" />
-                    <span>Main Stage, Amphitheater</span>
+                    <span>Main Stage, Surtech</span>
                   </div>
                 </div>
               </div>
@@ -307,29 +307,12 @@ export default function UdaanPage() {
                   <Clock className="h-5 w-5" />
                 </div>
                 <div className="space-y-1">
-                  <h3 className="text-lg font-semibold">Ice Breakers & Games</h3>
-                  <p className="text-gray-500 dark:text-gray-400">2:00 PM - 3:00 PM</p>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    Fun activities to help freshers get to know each other
-                  </p>
-                  <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-                    <MapPin className="h-4 w-4" />
-                    <span>University Lawn</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="relative flex items-start gap-6 pb-12">
-                <div className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full bg-green-600 text-white shadow-sm">
-                  <Clock className="h-5 w-5" />
-                </div>
-                <div className="space-y-1">
                   <h3 className="text-lg font-semibold">Mr. & Ms. Fresher Contest</h3>
                   <p className="text-gray-500 dark:text-gray-400">3:00 PM - 5:00 PM</p>
                   <p className="text-gray-500 dark:text-gray-400">Competition to crown Mr. and Ms. Fresher 2025</p>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                     <MapPin className="h-4 w-4" />
-                    <span>Main Stage, Amphitheater</span>
+                    <span>Main Stage, Surtech Campus</span>
                   </div>
                 </div>
               </div>
@@ -340,11 +323,11 @@ export default function UdaanPage() {
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-lg font-semibold">DJ Night</h3>
-                  <p className="text-gray-500 dark:text-gray-400">5:00 PM - 8:00 PM</p>
+                  <p className="text-gray-500 dark:text-gray-400">5:00 PM - 7:00 PM</p>
                   <p className="text-gray-500 dark:text-gray-400">End the day with music, dance, and celebration</p>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                     <MapPin className="h-4 w-4" />
-                    <span>University Amphitheater</span>
+                    <span>Surtech Campus</span>
                   </div>
                 </div>
               </div>
@@ -366,7 +349,7 @@ export default function UdaanPage() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="/register?event=udaan">
+              <Link href="https://forms.gle/4XhpYATDFnBtnKEg6">
                 <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100">
                   Register Now
                 </Button>

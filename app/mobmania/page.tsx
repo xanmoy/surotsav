@@ -39,7 +39,7 @@ export default function MobmaniaPage() {
                 </div>
                 <div className="flex items-center gap-1">
                   <MapPin className="h-4 w-4" />
-                  <span>University Main Quad</span>
+                  <span>Surtech Campus</span>
                 </div>
               </div>
             </div>
@@ -152,11 +152,11 @@ export default function MobmaniaPage() {
                   <p className="text-gray-500 dark:text-gray-400">March 12-17, 2025 - Daily practice sessions</p>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                     <Clock className="h-4 w-4" />
-                    <span>5:00 PM - 7:00 PM</span>
+                    <span>11:00 PM - 5:00 PM</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                     <MapPin className="h-4 w-4" />
-                    <span>Dance Studio, Student Center</span>
+                    <span>Room No 121, 122</span>
                   </div>
                 </div>
               </div>
@@ -170,11 +170,11 @@ export default function MobmaniaPage() {
                   <p className="text-gray-500 dark:text-gray-400">March 17, 2025 - Final practice with costumes</p>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                     <Clock className="h-4 w-4" />
-                    <span>6:00 PM - 8:00 PM</span>
+                    <span>11:00 PM - 5:00 PM</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                     <MapPin className="h-4 w-4" />
-                    <span>University Main Quad</span>
+                    <span>Surtech Campus</span>
                   </div>
                 </div>
               </div>
@@ -188,11 +188,11 @@ export default function MobmaniaPage() {
                   <p className="text-gray-500 dark:text-gray-400">March 18, 2025 - The main event</p>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                     <Clock className="h-4 w-4" />
-                    <span>12:00 PM</span>
+                    <span>2:00 PM</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                     <MapPin className="h-4 w-4" />
-                    <span>University Main Quad</span>
+                    <span>Surtech campus</span>
                   </div>
                 </div>
               </div>

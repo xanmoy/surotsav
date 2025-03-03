@@ -42,7 +42,7 @@ export default function TarangPage() {
                 </div>
                 <div className="flex items-center gap-1">
                   <MapPin className="h-4 w-4" />
-                  <span>University Cultural Center</span>
+                  <span>Surtech Campus</span>
                 </div>
               </div>
             </div>
@@ -59,8 +59,57 @@ export default function TarangPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-950">
+        <div className="container px-4 md:px-6">
+          <div className="grid gap-10 lg:grid-cols-2 items-center">
+            <div className="space-y-4">
+              <div className="inline-block rounded-lg bg-rose-100 dark:bg-rose-900/30 px-3 py-1 text-sm text-rose-700 dark:text-rose-300">
+                About Tarang
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">What is Tarang?</h2>
+              <p className="text-gray-500 dark:text-gray-400 md:text-lg">
+              Tarang is a vibrant cultural fest that celebrates art, music, dance, and drama. It brings together students from diverse backgrounds to showcase their talents, compete, and enjoy performances, workshops, and fun activities. It’s a time to express creativity, bond with peers, and celebrate student life!              </p>
+              <p className="text-gray-500 dark:text-gray-400 md:text-lg">
+              arang is an energetic cultural fest that unites freshers and seniors in a celebration of creativity and fun. With activities, talent showcases, and interactive sessions, it’s a perfect opportunity for freshers to shine while seniors help them connect and feel welcome in the university community.
+              </p>
+              <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
+                <Link href="/register?event=Tarang">
+                  <Button className="bg-rose-600 text-white hover:bg-rose-700">Join the Celebration</Button>
+                </Link>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="grid gap-4">
+                <div className="overflow-hidden rounded-lg">
+                  <img
+                    src="/placeholder.svg?height=400&width=300"
+                    alt="Freshers Welcome"
+                    className="aspect-[3/4] object-cover w-full"
+                  />
+                </div>
+                <div className="overflow-hidden rounded-lg">
+                  <img
+                    src="/placeholder.svg?height=300&width=400"
+                    alt="Talent Show"
+                    className="aspect-[4/3] object-cover w-full"
+                  />
+                </div>
+              </div>
+              <div className="overflow-hidden rounded-lg">
+                <img
+                  src="/placeholder.svg?height=800&width=600"
+                  alt="Freshers Group"
+                  className="aspect-[3/4] object-cover w-full h-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Performances Section */}
-      <section id="performances" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-900">
+      {/* <section id="performances" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-900">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -101,7 +150,7 @@ export default function TarangPage() {
               ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
