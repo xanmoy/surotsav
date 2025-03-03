@@ -10,7 +10,7 @@ export const events: Event[] = [
         category: "Tech",
         subcategory: "Coding",
         date: "March 15",
-        image: "/placeholder.svg?height=400&width=600",
+        image: "/posters/10.webp?height=400&width=600",
         icon: <Code className="h-5 w-5" />,
         url: "https://forms.gle/4XhpYATDFnBtnKEg6",
     },
