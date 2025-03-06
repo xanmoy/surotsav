@@ -24,7 +24,7 @@ export default function TarangPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link href="/register?event=tarang">
+                <Link href="https://forms.gle/4XhpYATDFnBtnKEg6">
                   <Button size="lg" className="bg-white text-pink-800 hover:bg-gray-100">
                     Register Now
                   </Button>

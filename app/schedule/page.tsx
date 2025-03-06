@@ -15,7 +15,7 @@ export default function SchedulePage() {
                 Event Schedule
               </h1>
               <p className="mx-auto max-w-[700px] text-white/80 md:text-xl">
-                Plan your TechCultura experience with our detailed schedule
+                Plan your Surotsav experience with our detailed schedule
               </p>
             </div>
           </div>

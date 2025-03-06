@@ -17,6 +17,7 @@ export default function Navbar() {
     { href: "/udaan", label: "Udaan" },
     { href: "/tarang", label: "Tarang" },
     { href: "/about", label: "About" },
+    { href: "/schedule", label: "Schedule" },
     { href: "/contact", label: "Contact" },
   ]
 
@@ -28,9 +29,9 @@ export default function Navbar() {
           <Image
             src="/logo-nobg.png"
             alt="Surotsav"
-            width={54}
-            height={54}
-            // className="h-6 w-6 text-purple-600"
+            width={64} // Increased size for better visibility
+            height={64}
+            className="h-14 w-14 md:h-16 md:w-16 object-contain" // Ensures proper scaling
           />
           {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Surotsav</span> */}
         </Link>

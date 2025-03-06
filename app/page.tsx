@@ -26,44 +26,49 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mt-8">
+          <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-10">
             <EventCard
               title="Mobmania"
               description="Exciting flashmob event to kick off Surotsav 2025"
               category="Flashmob"
               date="March 18"
-              image="/placeholder.svg?height=400&width=600"
-              icon={<Users className="h-5 w-5" />}
+              image="/events/mobmania.jpg?height=500&width=700"
+              icon={<Users className="h-6 w-6" />}
               url="/mobmania"
+              className="p-6 min-h-[280px]" // Increase size
             />
             <EventCard
               title="Manthan"
               description="Tech fest featuring hackathons, coding competitions & more"
               category="Tech"
               date="March 19-20"
-              image="/placeholder.svg?height=400&width=600"
-              icon={<Zap className="h-5 w-5" />}
+              image="/events/manthan.jpg?height=500&width=700"
+              icon={<Zap className="h-6 w-6" />}
               url="/manthan"
+              className="p-6 min-h-[280px]"
             />
             <EventCard
               title="Udaan"
               description="Freshers' welcome celebration with fun activities"
               category="Freshers"
               date="March 20"
-              image="/placeholder.svg?height=400&width=600"
-              icon={<Sparkles className="h-5 w-5" />}
+              image="/events/udaan.jpg?height=500&width=700"
+              icon={<Sparkles className="h-6 w-6" />}
               url="/udaan"
+              className="p-6 min-h-[280px]"
             />
             <EventCard
               title="Tarang"
               description="Cultural fest showcasing music, dance & theatrical performances"
               category="Cultural"
               date="March 21"
-              image="/placeholder.svg?height=400&width=600"
-              icon={<Music className="h-5 w-5" />}
+              image="/events/tarang.jpg?height=500&width=700"
+              icon={<Music className="h-6 w-6" />}
               url="/tarang"
+              className="p-6 min-h-[280px]"
             />
           </div>
+
           <div className="flex justify-center mt-8">
             <Link href="/events">
               <Button

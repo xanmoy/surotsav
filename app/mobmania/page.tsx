@@ -21,7 +21,7 @@ export default function MobmaniaPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link href="/register?event=mobmania">
+                <Link href="https://forms.gle/4XhpYATDFnBtnKEg6">
                   <Button size="lg" className="bg-white text-purple-800 hover:bg-gray-100">
                     Join the Flashmob
                   </Button>
@@ -46,7 +46,7 @@ export default function MobmaniaPage() {
             <div className="flex items-center justify-center">
               <div className="relative w-full aspect-video rounded-xl overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/images/fest.jpeg?height=600&width=800"
                   alt="Mobmania Flashmob"
                   className="object-cover w-full h-full"
                 />
@@ -75,7 +75,7 @@ export default function MobmaniaPage() {
                 welcomes participants of all skill levels.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-                <Link href="/register?event=mobmania">
+                <Link href="https://forms.gle/4XhpYATDFnBtnKEg6">
                   <Button className="bg-purple-600 text-white hover:bg-purple-700">Register to Participate</Button>
                 </Link>
               </div>
@@ -84,14 +84,14 @@ export default function MobmaniaPage() {
               <div className="grid gap-4">
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/placeholder.svg?height=400&width=300"
+                    src="/images/11.jpeg?height=600&width=800&quality=100"
                     alt="Mobmania Rehearsal"
                     className="aspect-[3/4] object-cover w-full"
                   />
                 </div>
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/placeholder.svg?height=300&width=400"
+                    src="/images/4.jpeg?height=600&width=800&quality=100"
                     alt="Mobmania Performance"
                     className="aspect-[4/3] object-cover w-full"
                   />
@@ -99,7 +99,7 @@ export default function MobmaniaPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/images/10.jpeg?height=600&width=800&quality=100"
                   alt="Mobmania Group"
                   className="aspect-[3/4] object-cover w-full h-full"
                 />
@@ -280,7 +280,7 @@ export default function MobmaniaPage() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="/register?event=mobmania">
+              <Link href="https://forms.gle/4XhpYATDFnBtnKEg6">
                 <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
                   Register Now
                 </Button>

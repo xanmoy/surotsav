@@ -24,7 +24,7 @@ export default function ManthanPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link href="/register?event=manthan">
+                <Link href="https://forms.gle/4XhpYATDFnBtnKEg6">
                   <Button size="lg" className="bg-white text-blue-800 hover:bg-gray-100">
                     Register Now
                   </Button>
@@ -49,7 +49,7 @@ export default function ManthanPage() {
             <div className="flex items-center justify-center">
               <div className="relative w-full aspect-video rounded-xl overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/images/tech.jpeg?height=600&width=800"
                   alt="Manthan Tech Fest"
                   className="object-cover w-full h-full"
                 />
@@ -78,7 +78,7 @@ export default function ManthanPage() {
                 offers a diverse range of events that cater to various interests and skill levels in the tech domain.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-                <Link href="/register?event=manthan">
+                <Link href="/events">
                   <Button className="bg-blue-600 text-white hover:bg-blue-700">Register for Events</Button>
                 </Link>
               </div>
@@ -87,14 +87,14 @@ export default function ManthanPage() {
               <div className="grid gap-4">
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/placeholder.svg?height=400&width=300"
+                    src="/images/1.avif?height=400&width=300"
                     alt="Coding Competition"
                     className="aspect-[3/4] object-cover w-full"
                   />
                 </div>
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/placeholder.svg?height=300&width=400"
+                    src="/images/1.jpg?height=300&width=400"
                     alt="Robotics Challenge"
                     className="aspect-[4/3] object-cover w-full"
                   />
@@ -102,7 +102,7 @@ export default function ManthanPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/images/manthan1.jpg?height=800&width=600"
                   alt="Hackathon"
                   className="aspect-[3/4] object-cover w-full h-full"
                 />
@@ -170,7 +170,7 @@ export default function ManthanPage() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="/register?event=manthan">
+              <Link href="https://forms.gle/4XhpYATDFnBtnKEg6">
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                   Register Now
                 </Button>

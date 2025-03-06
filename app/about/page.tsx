@@ -80,7 +80,7 @@ export default function AboutPage() {
                 </div>
                 <div className="relative aspect-video overflow-hidden rounded-xl">
                   <img
-                    src="/placeholder.svg?height=600&width=800"
+                    src="/images/party.jpg?height=600&width=800&quality=100"
                     alt="Surotsav Event"
                     className="object-cover w-full h-full"
                   />

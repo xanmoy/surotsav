@@ -11,9 +11,10 @@ interface EventCardProps {
   image: string
   icon: ReactNode
   url: string
+  className?: string;
 }
 
-export default function EventCard({ title, description, category, date, image, icon, url }: EventCardProps) {
+export default function EventCard({ title, description, category, date, image, icon, url, className }: EventCardProps) {
   // const linkHref = url || `/events/${title.toLowerCase().replace(/\s+/g, "-")}`
 
 
