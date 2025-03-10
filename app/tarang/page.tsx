@@ -49,7 +49,7 @@ export default function TarangPage() {
             <div className="flex items-center justify-center">
               <div className="relative w-full aspect-video rounded-xl overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGolMjBwYXJ0eXxlbnwwfHwwfHx8MA%3D%3D"
                   alt="Tarang Cultural Fest"
                   className="object-cover w-full h-full"
                 />
@@ -74,7 +74,7 @@ export default function TarangPage() {
               arang is an energetic cultural fest that unites freshers and seniors in a celebration of creativity and fun. With activities, talent showcases, and interactive sessions, it’s a perfect opportunity for freshers to shine while seniors help them connect and feel welcome in the university community.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-                <Link href="/register?event=Tarang">
+                <Link href="/events">
                   <Button className="bg-rose-600 text-white hover:bg-rose-700">Join the Celebration</Button>
                 </Link>
               </div>
@@ -83,14 +83,14 @@ export default function TarangPage() {
               <div className="grid gap-4">
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/placeholder.svg?height=400&width=300"
+                    src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633390/21_sfgz1z.jpg"
                     alt="Freshers Welcome"
                     className="aspect-[3/4] object-cover w-full"
                   />
                 </div>
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/placeholder.svg?height=300&width=400"
+                    src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633337/7_hk6j8t.jpg"
                     alt="Talent Show"
                     className="aspect-[4/3] object-cover w-full"
                   />
@@ -98,7 +98,7 @@ export default function TarangPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="/placeholder.svg?height=800&width=600"
+                  src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633384/20_nud17m.jpg"
                   alt="Freshers Group"
                   className="aspect-[3/4] object-cover w-full h-full"
                 />

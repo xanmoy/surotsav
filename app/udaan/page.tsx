@@ -46,7 +46,7 @@ export default function UdaanPage() {
             <div className="flex items-center justify-center">
               <div className="relative w-full aspect-video rounded-xl overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633343/party_tgkyq9.jpg"
                   alt="Udaan Freshers Event"
                   className="object-cover w-full h-full"
                 />
@@ -75,7 +75,7 @@ export default function UdaanPage() {
                 showcase their talents and for seniors to welcome them into the university family.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-                <Link href="/register?event=udaan">
+                <Link href="https://forms.gle/4XhpYATDFnBtnKEg6">
                   <Button className="bg-green-600 text-white hover:bg-green-700">Join the Celebration</Button>
                 </Link>
               </div>
@@ -84,14 +84,14 @@ export default function UdaanPage() {
               <div className="grid gap-4">
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/placeholder.svg?height=400&width=300"
+                    src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633384/20_nud17m.jpg"
                     alt="Freshers Welcome"
                     className="aspect-[3/4] object-cover w-full"
                   />
                 </div>
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/placeholder.svg?height=300&width=400"
+                    src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633388/22_u7yvzh.jpg"
                     alt="Talent Show"
                     className="aspect-[4/3] object-cover w-full"
                   />
@@ -99,7 +99,7 @@ export default function UdaanPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="/placeholder.svg?height=800&width=600"
+                  src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633389/23_aeuqbm.jpg"
                   alt="Freshers Group"
                   className="aspect-[3/4] object-cover w-full h-full"
                 />
@@ -127,7 +127,13 @@ export default function UdaanPage() {
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-8">
             <Card className="overflow-hidden">
               <div className="aspect-video w-full overflow-hidden bg-green-100 dark:bg-green-900/20 flex items-center justify-center">
-                <Sparkles className="h-12 w-12 text-green-600" />
+                {/* <Sparkles className="h-12 w-12 text-green-600" />
+                 */}
+                <img
+                  src="https://fireguyshow.com/wp-content/uploads/2024/08/200-1.jpg"
+                  alt="Freshers Welcome"
+                  className="aspect-[3/4] object-cover w-full"
+                />
               </div>
               <CardHeader className="p-4">
                 <div className="flex justify-between items-center">
@@ -171,7 +177,13 @@ export default function UdaanPage() {
 
             <Card className="overflow-hidden">
               <div className="aspect-video w-full overflow-hidden bg-green-100 dark:bg-green-900/20 flex items-center justify-center">
-                <Award className="h-12 w-12 text-green-600" />
+                {/* <Award className="h-12 w-12 text-green-600" />
+                 */}
+                <img
+                  src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741634256/freshers_b3xmne.webp"
+                  alt="Mr. & Ms. Fresher Contest"
+                  className="aspect-[3/4] object-cover w-full"
+                />
               </div>
               <CardHeader className="p-4">
                 <div className="flex justify-between items-center">
@@ -193,7 +205,12 @@ export default function UdaanPage() {
 
             <Card className="overflow-hidden">
               <div className="aspect-video w-full overflow-hidden bg-green-100 dark:bg-green-900/20 flex items-center justify-center">
-                <PartyPopper className="h-12 w-12 text-green-600" />
+                {/* <PartyPopper className="h-12 w-12 text-green-600" /> */}
+                <img
+                  src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGolMjBwYXJ0eXxlbnwwfHwwfHx8MA%3D%3D"
+                  alt="Dj Night"
+                  className="aspect-[3/4] object-cover w-full"
+                />
               </div>
               <CardHeader className="p-4">
                 <div className="flex justify-between items-center">

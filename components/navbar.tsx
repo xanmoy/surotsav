@@ -24,17 +24,16 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 text-lg font-bold">
-          {/* <Mountain className="h-6 w-6 text-purple-600" /> */}
+        <Link href="/" className="flex items-center gap-3 text-xl font-bold">
           <Image
             src="/logo-nobg.png"
             alt="Surotsav"
-            width={64} // Increased size for better visibility
-            height={64}
-            className="h-14 w-14 md:h-16 md:w-16 object-contain" // Ensures proper scaling
+            width={80} // Increased size
+            height={80}
+            className="h-16 w-16 md:h-20 md:w-20 min-w-[64px] min-h-[64px] object-contain"
           />
-          {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Surotsav</span> */}
         </Link>
+
 
         <nav className="hidden md:flex gap-6">
           {routes.map((route) => (

@@ -75,7 +75,21 @@ export default function HeroSection() {
                                     
                                 </span>
                             </div>
+                            
                         </div>
+                        <div className="flex items-center gap-3 mt-4 flex-wrap justify-start w-fit">
+                            <img src="https://www.surtech.edu.in/images/jis-logo.png" alt="JIS Logo" className="w-[40px] md:w-[40px]" />
+                            <img src="https://www.surtech.edu.in/images/Accreditation/logo-front/NAAC-surtech.png" alt="NAAC Logo" className="w-[40px] md:w-[40px]" />
+                            <img src="https://www.surtech.edu.in/images/Accreditation/logo-front/ugc.png" alt="UGC Logo" className="w-[35px] md:w-[40px]" />
+                            <img src="https://www.surtech.edu.in/images/Accreditation/logo-front/iic.png" alt="IIC Logo" className="w-[35px] md:w-[40px]" />
+                            <img src="https://www.surtech.edu.in/images/Accreditation/logo-front/nba.png" alt="NBA Logo" className="w-[35px] md:w-[40px]" />
+                            <img src="https://www.surtech.edu.in/images/Accreditation/logo-front/wbut.png" alt="WBUT Logo" className="w-[35px] md:w-[35px]" />
+                            <img src="https://www.surtech.edu.in/images/Accreditation/logo-front/aicte.png" alt="AICTE Logo" className="w-[35px] md:w-[35px]" />
+                        </div>
+
+
+
+
                     </div>
                     <div className="flex flex-col items-center justify-center">
                         <h2 className="text-gray-300 text-lg font-semibold tracking-wide uppercase">COUNTDOWN</h2>

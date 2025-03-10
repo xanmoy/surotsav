@@ -46,7 +46,8 @@ export default function MobmaniaPage() {
             <div className="flex items-center justify-center">
               <div className="relative w-full aspect-video rounded-xl overflow-hidden">
                 <img
-                  src="/images/fest.jpeg?height=600&width=800"
+                  src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741630970/fest_mvsmqt.jpg"
+                  // src="/images/fest.jpeg?height=600&width=800"
                   alt="Mobmania Flashmob"
                   className="object-cover w-full h-full"
                 />
@@ -84,14 +85,15 @@ export default function MobmaniaPage() {
               <div className="grid gap-4">
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/images/11.jpeg?height=600&width=800&quality=100"
+                    // src="/images/11.jpeg?height=600&width=800&quality=100"
+                    src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741631124/11_bysqlr.jpg"
                     alt="Mobmania Rehearsal"
                     className="aspect-[3/4] object-cover w-full"
                   />
                 </div>
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/images/4.jpeg?height=600&width=800&quality=100"
+                    src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741631166/4_zqisxh.jpg"
                     alt="Mobmania Performance"
                     className="aspect-[4/3] object-cover w-full"
                   />
@@ -99,7 +101,7 @@ export default function MobmaniaPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="/images/10.jpeg?height=600&width=800&quality=100"
+                  src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741631261/10_lag0rb.jpg"
                   alt="Mobmania Group"
                   className="aspect-[3/4] object-cover w-full h-full"
                 />

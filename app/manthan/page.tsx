@@ -49,7 +49,7 @@ export default function ManthanPage() {
             <div className="flex items-center justify-center">
               <div className="relative w-full aspect-video rounded-xl overflow-hidden">
                 <img
-                  src="/images/tech.jpeg?height=600&width=800"
+                  src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633275/tech_uymbvb.jpg"
                   alt="Manthan Tech Fest"
                   className="object-cover w-full h-full"
                 />
@@ -87,14 +87,14 @@ export default function ManthanPage() {
               <div className="grid gap-4">
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/images/1.avif?height=400&width=300"
+                    src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633381/17_judtnu.jpg"
                     alt="Coding Competition"
                     className="aspect-[3/4] object-cover w-full"
                   />
                 </div>
                 <div className="overflow-hidden rounded-lg">
                   <img
-                    src="/images/1.jpg?height=300&width=400"
+                    src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633383/19_v7vmyi.jpg"
                     alt="Robotics Challenge"
                     className="aspect-[4/3] object-cover w-full"
                   />
@@ -102,7 +102,7 @@ export default function ManthanPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="/images/manthan1.jpg?height=800&width=600"
+                  src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633376/13_ojlchs.jpg"
                   alt="Hackathon"
                   className="aspect-[3/4] object-cover w-full h-full"
                 />
@@ -133,7 +133,12 @@ export default function ManthanPage() {
               .map((event) => (
                 <Card key={event.title} className="overflow-hidden">
                   <div className="aspect-video w-full overflow-hidden bg-blue-100 dark:bg-blue-900/20 flex items-center justify-center">
-                    {React.cloneElement(event.icon, { className: "h-5 w-5 text-blue-600" })}
+                    {/* {React.cloneElement(event.icon, { className: "h-5 w-5 text-blue-600" })} */}
+                    <img
+                      src={event.image || "/placeholder.svg"}
+                      alt={event.title}
+                      className="object-cover w-full h-full transition-transform hover:scale-105"
+                    />
                   </div>
                   <CardHeader className="p-4">
                     <div className="flex justify-between items-center">

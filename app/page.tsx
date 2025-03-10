@@ -32,7 +32,7 @@ export default function Home() {
               description="Exciting flashmob event to kick off Surotsav 2025"
               category="Flashmob"
               date="March 18"
-              image="/events/mobmania.jpg?height=500&width=700"
+              image="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741632409/mobmania_hch9xw.jpg"
               icon={<Users className="h-6 w-6" />}
               url="/mobmania"
               className="p-6 min-h-[280px]" // Increase size
@@ -42,7 +42,7 @@ export default function Home() {
               description="Tech fest featuring hackathons, coding competitions & more"
               category="Tech"
               date="March 19-20"
-              image="/events/manthan.jpg?height=500&width=700"
+              image="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741632410/manthan_egu0hn.jpg"
               icon={<Zap className="h-6 w-6" />}
               url="/manthan"
               className="p-6 min-h-[280px]"
@@ -52,7 +52,7 @@ export default function Home() {
               description="Freshers' welcome celebration with fun activities"
               category="Freshers"
               date="March 20"
-              image="/events/udaan.jpg?height=500&width=700"
+              image="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741632572/udaan-min_iivqfb.jpg"
               icon={<Sparkles className="h-6 w-6" />}
               url="/udaan"
               className="p-6 min-h-[280px]"
@@ -62,7 +62,7 @@ export default function Home() {
               description="Cultural fest showcasing music, dance & theatrical performances"
               category="Cultural"
               date="March 21"
-              image="/events/tarang.jpg?height=500&width=700"
+              image="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741632573/tarang-min_m0lovx.jpg"
               icon={<Music className="h-6 w-6" />}
               url="/tarang"
               className="p-6 min-h-[280px]"
@@ -83,7 +83,7 @@ export default function Home() {
       </section>
 
       {/* Speakers/Performers Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-950">
+      {/* <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-950">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -107,13 +107,13 @@ export default function Home() {
             <SpeakerCard name="Michael Chen" role="Classical Dancer" image="/placeholder.svg?height=300&width=300" />
           </div>
         </div>
-      </section>
+      </section> */}
       
       {/* Sponsors Section */}
       <SponsorSection />
 
       {/* Developer Section */}
-      {/* <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-950">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-950">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -141,13 +141,13 @@ export default function Home() {
               <SpeakerCard
                 name="Anushwa Bhattacharya"
                 role="Frontend Developer"
-                image="/assets/anushwa.jpeg"
+                image="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741632963/Anushwa_cciyol.jpg"
                 company="Cloud Native Hooghly"
               />
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
 
 

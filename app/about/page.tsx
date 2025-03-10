@@ -24,16 +24,16 @@ export default function AboutPage() {
       {/* About Tabs */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-900">
         <div className="container px-4 md:px-6">
-          <Tabs defaultValue="about" className="w-full">
-            <div className="flex justify-center mb-8">
+          {/* <Tabs defaultValue="about" className="w-full"> */}
+            {/* <div className="flex justify-center mb-8">
               <TabsList className="grid w-full max-w-md grid-cols-2">
                 <TabsTrigger value="about">About</TabsTrigger>
                 <TabsTrigger value="history">History</TabsTrigger>
-                {/* <TabsTrigger value="team">Team</TabsTrigger> */}
+                <TabsTrigger value="team">Team</TabsTrigger>
               </TabsList>
-            </div>
+            </div> */}
 
-            <TabsContent value="about" className="mt-0">
+            {/* <TabsContent value="about" className="mt-0"> */}
               <div className="grid gap-10 lg:grid-cols-2 items-center">
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold tracking-tighter">What is Surotsav?</h2>
@@ -80,15 +80,15 @@ export default function AboutPage() {
                 </div>
                 <div className="relative aspect-video overflow-hidden rounded-xl">
                   <img
-                    src="/images/party.jpg?height=600&width=800&quality=100"
+                src="https://res.cloudinary.com/dg6vdv82c/image/upload/v1741633390/21_sfgz1z.jpg"
                     alt="Surotsav Event"
                     className="object-cover w-full h-full"
                   />
                 </div>
               </div>
-            </TabsContent>
+            {/* </TabsContent> */}
 
-            <TabsContent value="history" className="mt-0">
+            {/* <TabsContent value="history" className="mt-0">
               <div className="space-y-8">
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold tracking-tighter">Our Journey</h2>
@@ -155,10 +155,10 @@ export default function AboutPage() {
                   </div>
                 </div>
               </div>
-            </TabsContent>
+            </TabsContent> */}
 
             
-          </Tabs>
+          {/* </Tabs> */}
         </div>
       </section>
     </div>

@@ -11,33 +11,11 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 text-lg font-bold">
-
-              {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
-                Surotsav
-              </span> */}
-              <Image
-                src="/logo-nobg.png"
-                alt="Surotsav"
-                width={84}
-                height={84}
-              // className="h-6 w-6 text-purple-600"
-              />
-              <Image
-                src="tarang.png"
-                alt="Surotsav"
-                width={84}
-                height={84}
-              // className="h-6 w-6 text-purple-600"
-              />
-              <Image
-                src="/manthan.png"
-                alt="Surotsav"
-                width={84}
-                height={84}
-              // className="h-6 w-6 text-purple-600"
-              />
+              <Image src="/logo-nobg.png" alt="Surotsav" width={84} height={84} />
+              <Image src="tarang.png" alt="Surotsav" width={84} height={84} />
+              <Image src="/manthan.png" alt="Surotsav" width={84} height={84} />
             </Link>
-            
+
             <p className="text-gray-400 max-w-xs">
               The ultimate college fest experience featuring Mobmania, Manthan, Udaan, and Tarang. Join us for an
               unforgettable celebration.
@@ -65,8 +43,8 @@ export default function Footer() {
               </Link>
             </div>
           </div>
-
-          <div className="space-y-4">
+        
+          <div className="space-y-4 lg:ml-16"> {/* Shift right on large screens */}
             <h3 className="text-lg font-medium">Events</h3>
             <ul className="space-y-2">
               <li>
@@ -97,7 +75,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-4 lg:ml-16"> {/* Shift right on large screens */}
             <h3 className="text-lg font-medium">Contact Info</h3>
             <ul className="space-y-2 text-gray-400">
               <li>540 Dum Dum Road, Surermath, (Near Dum Dum Jn. Station)</li>
@@ -106,20 +84,8 @@ export default function Footer() {
               <li>+91 6291977707</li>
             </ul>
           </div>
-
-          <div className="space-y-4">
-            <h3 className="text-lg font-medium">Stay Updated</h3>
-            <p className="text-gray-400">Subscribe to our newsletter for updates</p>
-            <div className="flex gap-2">
-              <Input
-                type="email"
-                placeholder="Your email"
-                className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
-              />
-              <Button className="bg-purple-600 hover:bg-purple-700">Subscribe</Button>
-            </div>
-          </div>
         </div>
+        
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
           <p>&copy; {new Date().getFullYear()} Surotsav. All rights reserved.</p>
