@@ -17,7 +17,6 @@ export default function Navbar() {
     { href: "/udaan", label: "Udaan" },
     { href: "/tarang", label: "Tarang" },
     { href: "/about", label: "About" },
-    { href: "/schedule", label: "Schedule" },
     { href: "/contact", label: "Contact" },
   ]
 
