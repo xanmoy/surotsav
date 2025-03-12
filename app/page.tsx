@@ -4,7 +4,7 @@ import { CalendarDays, MapPin, Users, Zap, Music, Sparkles } from "lucide-react"
 import CountdownTimer from "@/components/countdown-timer"
 import EventCard from "@/components/event-card"
 import SpeakerCard from "@/components/speaker-card"
-import SponsorSection from "@/components/sponsor-section"
+// import SponsorSection from "@/components/sponsor-section"
 import HeroSection from "@/components/hero"
 
 export default function Home() {
@@ -110,7 +110,7 @@ export default function Home() {
       </section> */}
       
       {/* Sponsors Section */}
-      <SponsorSection />
+      {/* <SponsorSection /> */}
 
       {/* Developer Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-950">

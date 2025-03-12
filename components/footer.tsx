@@ -68,8 +68,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/register" className="text-gray-400 hover:text-white">
-                  Register
+                <Link href="/events" className="text-gray-400 hover:text-white">
+                  Events
                 </Link>
               </li>
             </ul>
