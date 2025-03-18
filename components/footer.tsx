@@ -59,12 +59,12 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/udaan" className="text-gray-400 hover:text-white">
-                  Udaan (Mar 20)
+                  Udaan (Apr 2)
                 </Link>
               </li>
               <li>
                 <Link href="/tarang" className="text-gray-400 hover:text-white">
-                  Tarang (Mar 21)
+                  Tarang (Apr 3)
                 </Link>
               </li>
               <li>

@@ -38,7 +38,7 @@ export default function TarangPage() {
               <div className="flex items-center gap-4 text-sm text-gray-200">
                 <div className="flex items-center gap-1">
                   <CalendarDays className="h-4 w-4" />
-                  <span>March 21, 2025</span>
+                  <span>April 3, 2025</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <MapPin className="h-4 w-4" />
