@@ -6,10 +6,11 @@ const sponsors = [
   { id: 3, name: "Sponsor 3", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326432/WhatsApp_Image_2025-03-18_at_15.54.30_gnopvj.jpg" },
   { id: 4, name: "Sponsor 4", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326469/WhatsApp_Image_2025-03-18_at_15.54.33_trmqmk.jpg" },
   { id: 5, name: "Sponsor 5", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326496/WhatsApp_Image_2025-03-18_at_15.54.34_pbfdx2.jpg" },
-  { id: 6, name: "Sponsor 7", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326522/WhatsApp_Image_2025-03-18_at_15.54.34_donild.jpg" },
-  { id: 7, name: "Sponsor 8", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326576/WhatsApp_Image_2025-03-18_at_15.54.35_ge5yco.jpg" },
-  { id: 8, name: "Sponsor 9", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326654/WhatsApp_Image_2025-03-18_at_15.54.35_f7wcmz.jpg" },
-  { id: 9, name: "Sponsor 10", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326728/WhatsApp_Image_2025-03-18_at_15.54.35_ojbedx.jpg" },
+  { id: 6, name: "Sponsor 6", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326522/WhatsApp_Image_2025-03-18_at_15.54.34_donild.jpg" },
+  { id: 7, name: "Sponsor 7", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326576/WhatsApp_Image_2025-03-18_at_15.54.35_ge5yco.jpg" },
+  { id: 8, name: "Sponsor 8", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326654/WhatsApp_Image_2025-03-18_at_15.54.35_f7wcmz.jpg" },
+  { id: 9, name: "Sponsor 9", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742326728/WhatsApp_Image_2025-03-18_at_15.54.35_ojbedx.jpg" },
+  { id: 10, name: "Sponsor 10", logo: "https://res.cloudinary.com/dg6vdv82c/image/upload/v1742401117/Picsart_25-03-16_14-59-59-475_pidz3i.png" },
 ];
 
 export default function SponsorSection() {
