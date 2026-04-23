@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Surotsav 2025 | College Fest",
   description:
     "Join us for Surotsav 2025 featuring Mobmania, Manthan, Udaan, and Tarang - an unforgettable celebration of talent and innovation.",
-  generator: "v0.dev",
+  
 };
 
 export default function RootLayout({
